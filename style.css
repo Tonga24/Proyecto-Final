@@ -18,6 +18,19 @@ body{
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
+    animation-duration: 5s;
+    animation-name: titulos;
+    animation-iteration-count: infinite;
+
+}
+@keyframes titulos {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
 }
 /* header */
 header{
@@ -158,6 +171,7 @@ header .textos-gaston{
 .imagen-sobre-redes{
     width: 48%;
     margin-left: 250px;
+     
 }
 /* Footer */
 footer{
